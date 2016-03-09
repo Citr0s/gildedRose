@@ -164,7 +164,7 @@ describe('Gilded Rose', function () {
 
                 $item->tick();
 
-                expect($item->quality)->toBe(11);
+                expect($item->quality)->toBe(12);
                 expect($item->sellIn)->toBe(10);
             });
 
